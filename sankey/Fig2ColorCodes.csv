@@ -1,0 +1,17 @@
+Node,Color,,Link,Color
+BU," ""black""",,ToBU," ""grey"""
+Crop," ""orange""",,ToCrop," ""#FFD300"""
+CropSup," ""#996515""",,ToOther,lightgrey 
+Dec," ""#03BB85""",,ToSP," ""#B399D4"""
+Forest,#B3E2CD ,,ToVeg," ""FCF4A3"""
+HCrop,yellow,,,
+Other," ""grey""",,,
+PCrop,orange,,,
+peat," ""E2A76F""",,,
+SCrop,gold,,,
+SP," ""purple""",,,
+sub,#FFD300 ,,,
+TCrop,red,,,
+TMS," ""#93CB56""",,,
+TR," ""darkgreen""",,,
+Veg,#FFFFE0,,,

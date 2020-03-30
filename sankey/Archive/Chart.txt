@@ -1,0 +1,41 @@
+' http://sankeymatic.com/build/
+' Type a list of Flows, like this:
+'     SOURCE [AMOUNT] TARGET
+' Examples:
+
+Tree canopy cover [34962098] Agriculture
+Tree canopy cover [111390139] Natural Forest
+Tree canopy cover [3555926] Other
+Tree canopy cover [10391709] Other Vegetation
+Tree canopy cover [1658081] Built-up
+
+Agriculture [11289966] Palm Crops
+Agriculture [10049095] Tree Crops
+Agriculture [898244] Shrub Crops	
+Agriculture [11747970] Ground Crops	
+Agriculture [236224] Other Plantation
+Agriculture [722380] Silvapastoral
+Agriculture [18218] Aquaculture
+
+Palm Crops [10042946] Oil palm
+Palm Crops [1062723] Coconut	
+Palm Crops [184297] Palm plantations	
+
+Tree Crops [1456338] Pulpwood
+Tree Crops [264883] Rubber	
+Tree Crops [983410] Fruit/nut	
+Tree Crops [7078604] Other tree
+Tree Crops [265861] Boundary trees	
+
+Shrub Crops [30131] Coffee	
+Shrub Crops [868113] Other shrub
+
+Ground Crops [9521029] Other ground
+Ground Crops [1942406] Rice
+
+' After your Flows are entered, use the
+' controls below to customize your
+' diagram's appearance.
+
+' For even finer control over presentation,
+' see the Manual (linked above).

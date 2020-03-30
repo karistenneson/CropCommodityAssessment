@@ -1,0 +1,36 @@
+"","Area_ha","SE_Area_ha"
+"NotFo_______Houston, we have a problem",55109649,0
+"NotFo_______NoLoss",216304255,280173
+"NotFo_pt_pt_Houston, we have a problem",2639012,0
+"NotFo_pt_pt_NoLoss",1466109,0
+"SHumF_______NoLoss",4419,0
+"SHumF_______ToCrop",2651,0
+"TDryF_______NoLoss",1118352,179407
+"TDryF_______ToBuUp",19363,6433
+"TDryF_______ToCrop",754094,80283
+"TDryF_______ToOthr",58157,4806
+"TDryF_______ToVegn",280342,13287
+"TMDec_______NoLoss",4420597,146800
+"TMDec_______ToBuUp",20299,1405
+"TMDec_______ToCrop",1179073,19459
+"TMDec_______ToOthr",183705,5936
+"TMDec_______ToVegn",500283,70850
+"TMtnS_______NoLoss",14871823,0
+"TMtnS_______ToBuUp",9379,0
+"TMtnS_______ToCrop",558944,0
+"TMtnS_______ToOthr",86746,0
+"TMtnS_______ToVegn",350636,0
+"TRain_______NoLoss",94565012,73683
+"TRain_______ToBuUp",205236,1819
+"TRain_______ToCrop",5731841,10194
+"TRain_______ToOthr",591443,2982
+"TRain_______ToVegn",3501638,6530
+"TRain_pt_pt_NoLoss",6516079,0
+"TRain_pt_pt_ToBuUp",30021,0
+"TRain_pt_pt_ToCrop",693201,0
+"TRain_pt_pt_ToOthr",14481,0
+"TRain_pt_pt_ToVegn",191033,0
+"TShrb_______NoLoss",446094,0
+"TShrb_______ToCrop",7827,0
+"TShrb_______ToOthr",190,0
+"TShrb_______ToVegn",2934,0

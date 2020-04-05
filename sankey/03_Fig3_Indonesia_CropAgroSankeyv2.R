@@ -17,7 +17,7 @@ library(tidyverse)
 ######################################################
 ################## Indonesia Sankey ##################
 ######################################################
-setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\GIA")
+setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\CropCommodityAssessment")
 
 country <- 'Indonesia'
 

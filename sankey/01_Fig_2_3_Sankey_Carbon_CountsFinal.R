@@ -19,7 +19,7 @@ library(tidyr)
 
 #+ set working directory
 # set working directory ------------------------------------------------------
-setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\GIA")
+setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\CropCommodityAssessment")
 
 #+ inputdata
 # Data input and cleaning ------------------------------------------------------
@@ -28,7 +28,8 @@ setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\GIA")
 #rawDataFull <- read.csv('data\\EcoFloristicJoin\\CompiledDatawithPeatlands02162020.csv',stringsAsFactors=FALSE)
 #rawDataFull <- read.csv('data\\EcoFloristicJoin\\CompiledDatawithPeatlands02242020PhilERROR.csv')
 #rawDataFull <- read.csv('data\\EcoFloristicJoin\\CompiledDatawithPeatlands02252020IndoThaiPhilERROR.csv')
-rawDataFull <- read.csv('data\\EcoFloristicJoin\\Compiled_Processed_withSpatial_03122020.csv')
+#rawDataFull <- read.csv('data\\EcoFloristicJoin\\Compiled_Processed_withSpatial_03122020.csv')
+rawDataFull <- read.csv('data\\EcoFloristicJoin\\Compiled_Processed_withSpatial_04042020.csv')
 
 ### Update Strata column
 rawDataFull = mutate(rawDataFull, countryFactor = as.numeric(PL_COUNTRY))
@@ -130,16 +131,16 @@ unique(rawDataFull$PL_StratumAll)
 ###################################################################################
 
 ### Set up filters by country of interest.
-stratumAreas<-stratumAreasMyanmar
+stratumAreas<-stratumAreasIndo
 stratumAreas
-sampSize<-sampSizeMyanmar
+sampSize<-sampSizeIndo
 sampSize
 
 # make a copy of full data set before subsetting.
 rawData <- rawDataFull
 unique(rawData$PL_COUNTRY)
 country <- 'Regional'
-country<-'Myanmar'
+country<-'Indonesia'
 
 # change strata for country analysis.
 strata <- seq(1:21)

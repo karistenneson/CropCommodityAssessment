@@ -1,22 +1,20 @@
-"sourceLabels","targetLabels","Area_ha","SE_Area_ha","LinkGroup"
-"Tropical rainforest (41,373,000)","Built-up (1,642,000)",1429786,424164,"ToBU"
-"Tropical rainforest, peatlands (3,133,900)","Built-up (1,642,000)",30021,11703,"ToBU"
-"Tropical mountain system (1,755,300)","Built-up (1,642,000)",182206,180760,"ToBU"
-"Tropical moist deciduous forest (2,186,400)","Croplands (32,570,000)",433810,433810,"ToCrop"
-"Tropical rainforest (41,373,000)","Croplands (32,570,000)",28782334,2888369,"ToCrop"
-"Tropical mountain system, peatlands (433,810)","Croplands (32,570,000)",433810,433810,"ToCrop"
-"Tropical mountain system (1,755,300)","Croplands (32,570,000)",1359334,658488,"ToCrop"
-"Tropical rainforest, peatlands (3,133,900)","Croplands (32,570,000)",1560822,621656,"ToCrop"
-"Tropical rainforest (41,373,000)","Other (3,618,500)",2115901,498013,"ToOther"
-"Tropical rainforest, peatlands (3,133,900)","Other (3,618,500)",231386,217140,"ToOther"
-"Tropical moist deciduous forest (2,186,400)","Other (3,618,500)",1210285,688644,"ToOther"
-"Tropical mountain system (1,755,300)","Other (3,618,500)",60888,29443,"ToOther"
-"Tropical rainforest (41,373,000)","Shrub, grassland, or herbaceous (11,051,000)",9044514,1436347,"ToVeg"
-"Tropical moist deciduous forest (2,186,400)","Shrub, grassland, or herbaceous (11,051,000)",542263,440245,"ToVeg"
-"Tropical rainforest, peatlands (3,133,900)","Shrub, grassland, or herbaceous (11,051,000)",1311709,652421,"ToVeg"
-"Tropical mountain system (1,755,300)","Shrub, grassland, or herbaceous (11,051,000)",152887,46453,"ToVeg"
-"Croplands (32,570,000)","All herbaceous crops (11,816,000)",11816092,1837691,"ToCrop"
-"Croplands (32,570,000)","All palm crops (11,006,000)",11005755,1743524,"ToCrop"
-"Croplands (32,570,000)","All shrub crops (908,060)",908060,461371,"ToCrop"
-"Croplands (32,570,000)","All tree crops (8,474,200)",8474181,1524877,"ToCrop"
-"Croplands (32,570,000)","Crop support (366,020)",366022,99318,"ToCrop"
+sourceLabels,targetLabels,Area_ha,SE_Area_ha,LinkGroup
+"Tropical mountain system (453,880)","Built-up (214,050)",1451,1451,ToBU
+"Tropical rainforest (9,207,300)","Built-up (214,050)",182582,28254,ToBU
+"Tropical rainforest, peatlands (928,740)","Built-up (214,050)",30021,11703,ToBU
+"Tropical mountain system (453,880)","Croplands (5,972,100)",256733,63393,ToCrop
+"Tropical rainforest (9,207,300)","Croplands (5,972,100)",5022188,492524,ToCrop
+"Tropical rainforest, peatlands (928,740)","Croplands (5,972,100)",693201,105067,ToCrop
+"Tropical moist deciduous forest (17,307)","Other (608,900)",17307,17307,ToOther
+"Tropical mountain system (453,880)","Other (608,900)",42812,23241,ToOther
+"Tropical rainforest (9,207,300)","Other (608,900)",534302,83711,ToOther
+"Tropical rainforest, peatlands (928,740)","Other (608,900)",14481,10098,ToOther
+"Tropical mountain system (453,880)","Shrub, grassland, or herbaceous (3,812,200)",152887,46453,ToVeg
+"Tropical rainforest (9,207,300)","Shrub, grassland, or herbaceous (3,812,200)",3468245,441941,ToVeg
+"Tropical rainforest, peatlands (928,740)","Shrub, grassland, or herbaceous (3,812,200)",191033,55200,ToVeg
+"Croplands (5,972,100)","All herbaceous crops (1,621,600)",1621552,144199,ToCrop
+"Croplands (5,972,100)","All palm crops (2,474,200)",2474154,463592,ToCrop
+"Croplands (5,972,100)","All shrub crops (329,650)",329646,63903,ToCrop
+"Croplands (5,972,100)","All tree crops (1,289,200)",1289200,133709,ToCrop
+"Croplands (5,972,100)","Crop support (257,570)",257569,57819,ToCrop
+"Tropical moist deciduous forest (17,307)","Croplands (5,972,100)",0.05,0.05,ToCrop

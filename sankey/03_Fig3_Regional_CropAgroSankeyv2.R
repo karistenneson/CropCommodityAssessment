@@ -18,7 +18,7 @@ library(tidyverse)
 ######################################################
 ################## Indonesia Sankey ##################
 ######################################################
-setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\GIA")
+setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\CropCommodityAssessment")
 
 country <- 'Regional'
 
@@ -65,11 +65,12 @@ unique(dataAll$source)
 dataAll$target <- substr(dataAll$X,6,10)
 dataAll$target[dataAll$target != 'Agris' & dataAll$target != 'Bndry' & dataAll$target != 'Trad'] <- 
   substr(dataAll$X[dataAll$target != 'Agris' & dataAll$target != 'Bndry' & dataAll$target != 'Trad'],
-         13,24)
-
+         10,24)
+dataAll$target[substr(dataAll$X,1,3)=='Tea'] <- substr(dataAll$X[substr(dataAll$X,1,3)=='Tea'],5,10)
 unique(dataAll$target)
 
 dataAll<-dataAll[dataAll$target != '_None',]
+dataAll<-dataAll[dataAll$target != 'None',]
 unique(dataAll$target)
 unique(dataAll$X)
 
@@ -129,7 +130,7 @@ head(dataAll)
 ######################################################
 ###########################
 ## create target
-dataAll$target[dataAll$level == 'Crop'] <- substr(dataAll$X[dataAll$level == 'Crop'],12,24)
+dataAll$target[dataAll$level == 'Crop'] <- substr(dataAll$X[dataAll$level == 'Crop'],10,24)
 unique(dataAll$target[dataAll$level == 'Crop'])
 
 dataAll$target[dataAll$level == 'Agro'] <- dataAll$X[dataAll$level == 'Agro']
@@ -300,6 +301,7 @@ nodesAll$group <- recode(substr(nodesAll$name, 1, 6),
                       "Rice, " = "HCrop",
                       "Rubber" = "TCrop",
                       "Shrub " = "SCrop",
+                      "Tea (8" = "SCrop",
                       "Tea (6" = "SCrop",
                       "Tea (1" = "SCrop",
                       "Tea, a" = "SCrop",

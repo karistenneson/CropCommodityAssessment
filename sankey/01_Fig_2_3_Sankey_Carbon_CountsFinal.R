@@ -131,16 +131,16 @@ unique(rawDataFull$PL_StratumAll)
 ###################################################################################
 
 ### Set up filters by country of interest.
-stratumAreas<-stratumAreasIndo
+stratumAreas<-stratumAreasRegional
 stratumAreas
-sampSize<-sampSizeIndo
+sampSize<-sampSizeRegional
 sampSize
 
 # make a copy of full data set before subsetting.
 rawData <- rawDataFull
 unique(rawData$PL_COUNTRY)
 country <- 'Regional'
-country<-'Indonesia'
+country<-'Philippines'
 
 # change strata for country analysis.
 strata <- seq(1:21)

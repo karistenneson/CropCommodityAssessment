@@ -17,7 +17,7 @@ library(tidyverse)
 ######################################################
 ################## Phil Sankey ##################
 ######################################################
-setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\GIA")
+setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\CropCommodityAssessment")
 
 country <- 'Philippines'
 
@@ -83,10 +83,13 @@ SourceTotalsAll = aggregate(dataAll$Area_ha, by=list(Category = dataAll$source),
 colnames(SourceTotalsAll) <- c("name", "Source_Total")
 SourceTotalsAll
 
-#SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Bana']<-1601
-SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Crop']<-8101
+SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Bana']<-1601
+SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Coco']<-24050
+SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Herb']<-79790
+SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Tree']<-28013
+#SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Crop']<-3203
 SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Rice']<-605
-SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Shru']<-47468
+#SourceTotalsAll$Source_Total[SourceTotalsAll$name == 'Shru']<-3395
 
 SourceTotalsAll$Source_Total <- round(signif(SourceTotalsAll$Source_Total, digits = 5))
 SourceTotalsAll$Source_Total <- format(SourceTotalsAll$Source_Total, big.mark=",", trim=TRUE)

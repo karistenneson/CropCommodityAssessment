@@ -1,0 +1,105 @@
+﻿CropLabel,CropAbb,CFactorTrad,CFactorAgro,Country
+banana,Bana,5.7,5.7,Cambodia
+coconut,Coco,,,Cambodia
+coffee,Coff,5.4,11,Cambodia
+crop support,Crop,6.8,20,Cambodia
+fruit and nut,Frui,75,75,Cambodia
+herb,Herb,6.8,20,Cambodia
+oil palm,Oil_,41.6,41.6,Cambodia
+palm,Palm,,,Cambodia
+pulpwood,Pulp,23,23,Cambodia
+rice,Rice,1.1,1.1,Cambodia
+rubber,Rubb,31.8,31.8,Cambodia
+shrub,Shru,10.5,16.5,Cambodia
+tea,Tea_,15.5,22,Cambodia
+tree,Tree,43.3,43.3,Cambodia
+aquaculture,Aqua,5,,Indonesia
+banana,Bana,,,Indonesia
+coconut,Coco,32,32,Indonesia
+coffee,Coff,,32.8,Indonesia
+crop support,Crop,5,20,Indonesia
+fruit and nut,Frui,42.1,42.1,Indonesia
+herb,Herb,5,20,Indonesia
+oil palm,Oil_,39,39,Indonesia
+palm,Palm,32,32,Indonesia
+pulpwood,Pulp,38.2,38.2,Indonesia
+rice,Rice,1,,Indonesia
+rubber,Rubb,38.2,,Indonesia
+shrub,Shru,22.5,32.8,Indonesia
+tea,Tea_,,,Indonesia
+tree,Tree,39,39,Indonesia
+aquaculture,Aqua,,,Laos
+banana,Bana,,,Laos
+coconut,Coco,,,Laos
+coffee,Coff,5.4,11,Laos
+crop support,Crop,6.8,20,Laos
+fruit and nut,Frui,,,Laos
+herb,Herb,6.8,20,Laos
+oil palm,Oil_,,,Laos
+palm,Palm,,,Laos
+pulpwood,Pulp,23,23,Laos
+rice,Rice,1.1,1.1,Laos
+rubber,Rubb,31.8,31.8,Laos
+shrub,Shru,10.5,16.5,Laos
+tea,Tea_,15.5,22,Laos
+tree,Tree,43.3,43.3,Laos
+aquaculture,Aqua,,,Myanmar
+banana,Bana,,,Myanmar
+coconut,Coco,,,Myanmar
+coffee,Coff,5.4,11,Myanmar
+crop support,Crop,6.82,20,Myanmar
+fruit and nut,Frui,51.63,51.63,Myanmar
+herb,Herb,6.82,20,Myanmar
+oil palm,Oil_,38.97,38.97,Myanmar
+palm,Palm,,,Myanmar
+pulpwood,Pulp,23,23,Myanmar
+rice,Rice,1.05,1.05,Myanmar
+rubber,Rubb,31.83,31.83,Myanmar
+shrub,Shru,10.46,16.5,Myanmar
+tea,Tea_,15.53,22,Myanmar
+tree,Tree,43.28,43.28,Myanmar
+aquaculture,Aqua,,,Philippines
+banana,Bana,5.7,5.7,Philippines
+coconut,Coco,24.1,30.8,Philippines
+coffee,Coff,5.4,41.3,Philippines
+crop support,Crop,6.5,20,Philippines
+fruit and nut,Frui,43.8,44.3,Philippines
+herb,Herb,5.1,20,Philippines
+oil palm,Oil_,39,39,Philippines
+palm,Palm,22.9,28.7,Philippines
+pulpwood,Pulp,23,23,Philippines
+rice,Rice,3.1,3.1,Philippines
+rubber,Rubb,107.3,107.3,Philippines
+shrub,Shru,10.5,16.5,Philippines
+tea,Tea_,15.5,22,Philippines
+tree,Tree,49.5,49.7,Philippines
+aquaculture,Aqua,,,Thailand
+banana,Bana,,,Thailand
+coconut,Coco,48.9,56.3,Thailand
+coffee,Coff,5.4,11,Thailand
+crop support,Crop,6.8,20,Thailand
+fruit and nut,Frui,67,67,Thailand
+herb,Herb,8.1,10.1,Thailand
+oil palm,Oil_,39,39,Thailand
+palm,Palm,,,Thailand
+pulpwood,Pulp,23,23,Thailand
+rice,Rice,,,Thailand
+rubber,Rubb,31.8,31.8,Thailand
+shrub,Shru,10.5,16.5,Thailand
+tea,Tea_,,,Thailand
+tree,Tree,43.3,43.3,Thailand
+aquaculture,Aqua,,,Vietnam
+banana,Bana,,,Vietnam
+coconut,Coco,,,Vietnam
+coffee,Coff,5,11,Vietnam
+crop support,Crop,4,20,Vietnam
+fruit and nut,Frui,34.07,34.07,Vietnam
+herb,Herb,4,20,Vietnam
+oil palm,Oil_,,,Vietnam
+palm,Palm,,,Vietnam
+pulpwood,Pulp,23,23,Vietnam
+rice,Rice,1,1,Vietnam
+rubber,Rubb,31.74,31.74,Vietnam
+shrub,Shru,10.15,16.5,Vietnam
+tea,Tea_,15.3,22,Vietnam
+tree,Tree,29.5,29.5,Vietnam

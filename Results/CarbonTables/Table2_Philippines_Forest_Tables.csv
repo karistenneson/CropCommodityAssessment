@@ -1,4 +1,5 @@
-"Forest","Forest_tonnes_C","Crop_tonnes_C","Diff_tonnes_C"
-"Tropical moist deciduous forest","1,446,978","224,423","1,222,555"
-"Tropical mountain system","238,754","22,336","216,418"
-"Tropical rainforest","34,716,825","3,908,664","30,808,161"
+Forest,Forest_tonnes_C,Crop_tonnes_C,Diff_tonnes_C
+Tropical moist deciduous forest,"1,446,978","224,423","1,222,555"
+Tropical mountain system,"238,754","22,336","216,418"
+Tropical rainforest,"34,716,825","3,908,664","30,808,161"
+Total,"36,402,557","4,155,423","32,247,134"

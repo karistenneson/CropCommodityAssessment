@@ -21,7 +21,7 @@ setwd("C:\\Users\\karis\\Documents\\GreenInvestAsia\\githubFiles\\Final\\CropCom
 ######################################################
 #"Cambodia"    "Indonesia"   "Laos"        "Myanmar"     "Philippines" "Thailand"    "Vietnam"
 
-country <- 'Vietnam'
+country <- 'Indonesia'
 
 #######################################################
 ##### Crop Carbon Key #####
@@ -76,6 +76,7 @@ cropArea$AgroType[cropArea$CropType == 'Tea_'] <-
   substr(cropArea$FullTransition[cropArea$CropType == 'Tea_'],14,17)
 cropArea <- cropArea[cropArea$CropType != 'None',]
 unique(cropArea$CropType)
+
 unique(cropArea$AgroType[cropArea$AgroType!='Trad'])
 cropArea$AgroType[cropArea$AgroType!='Trad']<-'Agro'
 unique(cropArea$AgroType)
@@ -92,6 +93,9 @@ dataAgro$CropCFactor[dataAgro$AgroType == 'Trad'] <-
 dataAgro$CropCFactor[dataAgro$AgroType != 'Trad'] <- 
   dataAgro$CFactorAgro[dataAgro$AgroType!='Trad']
 head(dataAgro)
+
+dataAgro[dataAgro$CropCFactor=='NA',]
+
 dataAgro<-dataAgro[,c("FullTransition", "Area_ha", "SE_ha", 
                       "ForestType","CropType", "CropLabel", "AgroType", "Country",       
                        "CropCFactor")]
@@ -138,7 +142,7 @@ ForestTotalsAll
 CropTotalsAll = aggregate(fullCarbon$CropCarbon, 
                             by=list(Category = fullCarbon$ForestType), FUN=sum)
 colnames(CropTotalsAll)<- c('Forest','Crop_tonnes_C')
-#CropTotalsAll$Crop_tonnes_C <- round(signif(CropTotalsAll$Crop_tonnes_C, digits = 5))
+CropTotalsAll$Crop_tonnes_C <- round(CropTotalsAll$Crop_tonnes_C)
 CropTotalsAll$Crop_tonnes_C_Label <- format(CropTotalsAll$Crop_tonnes_C, big.mark=",", trim=TRUE)
 CropTotalsAll
 
@@ -167,10 +171,10 @@ Table2All$Forest <- recode(Table2All$Forest,
                                "TRain_p" = 'Tropical rainforest, peatlands', 
                                "TDryF" = 'Tropical dry forest', 
                                "TMDec" = 'Tropical moist deciduous forest',
-                               "TMtn" = 'Tropical mountain system',
-                               "SHum" = 'Subtropical humid forest',
+                               "TMtnS" = 'Tropical mountain system',
+                               "SHumF" = 'Subtropical humid forest',
                                "TDry" = 'Tropical dry forest',
-                               "TShr" = 'Tropical shrubland')
+                               "TShrb" = 'Tropical shrubland')
 Table2All
 
 ##### Export table 2.
@@ -276,7 +280,7 @@ Table4_2Cols$CropForm <- recode(Table4_2Cols$CropAbb,
                             "Bana" = 'Palm',
                             "Coco" = 'Palm',
                             "Coff" = 'Shrub',
-                            "Crop" = 'Crop',
+                            "Crop" = 'Crop support',
                             "Frui" = 'Tree',
                             "Herb" = 'Herb',
                             "Oil_" = 'Palm',
@@ -320,3 +324,4 @@ write.csv(Table4_2Cols, paste0('Results/CarbonTables/Table4_', country, '_CropFo
 
 rm(Table4_2Cols, fullCarbon, country)
 rm(Table3All)
+

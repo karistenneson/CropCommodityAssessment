@@ -1,6 +1,7 @@
-"CropAgro","TradCrop_tonnes_C_Label","AgroCrop_tonnes_C_Label"
-"Crop support","16,871","372,920"
-"Herb","474,298","7,140,100"
-"Palm","0","237,138"
-"Shrub","176,544","417,653"
-"Tree","5,862,542","6,238,018"
+CropAgro,TradCrop_tonnes_C_Label,AgroCrop_tonnes_C_Label,Total
+Crop support,"16,871","372,920","389,791"
+Herb,"474,298","7,140,100","7,614,398"
+Palm,0,"237,138","237,138"
+Shrub,"176,544","417,653","594,197"
+Tree,"5,862,542","6,238,018","12,100,560"
+Total,"6,530,255","14,405,829",
